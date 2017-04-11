@@ -46,25 +46,25 @@
 						<div class="row">
 							<div class="form-group col-sm-6">
 								<label for="first-name" class="control-label">Nickname</label>
-								<input type="text" name="nickname" id="nickname" class="form-control"/>
+								<input type="text" name="nickname" id="nickname" class="form-control" />
 							</div>
 						</div>
 
 						<div class="row">
 							<div class="form-group col-sm-6">
 								<label for="email" class="control-label">Email address*</label>
-								<input type="text" name="email" id="email" class="form-control" />
+								<input type="text" name="email" id="email" class="form-control" data-rule-required="true" />
 							</div>
 
 							<div class="form-group col-sm-6">
 								<label for="phone" class="control-label">Phone number*</label>
-								<input type="text" name="phone" id="phone" class="form-control" />
+								<input type="text" name="phone" id="phone" class="form-control" data-rule-required="true" />
 							</div>
 						</div>
 
 						<div class="row">
 							<div class="form-group col-sm-6">
-								<label class="control-label">Role*</label>
+								<label class="control-label">Role</label>
 								<div class="radio">
 									<label>
 										<input type="radio" id="role-student" name="role" value="student" />I am a student
@@ -79,7 +79,7 @@
 							</div>
 
 							<div class="form-group col-sm-6">
-								<label class="control-label">Preferred contact method*</label>
+								<label class="control-label">Preferred contact method</label>
 								<div class="radio">
 									<label>
 										<input type="radio" id="contact-phone" name="contact" value="phone" />Phone
@@ -97,7 +97,7 @@
 						<div class="row">
 							<div class="form-group col-sm-12">
 								<label for="message" class="control-label">Message*</label>
-								<textarea id="message" name="message" class="form-control" rows="4"></textarea>
+								<textarea id="message" name="message" class="form-control" rows="4" data-rule-required="true"></textarea>
 							</div>
 						</div>
 
