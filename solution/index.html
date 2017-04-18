@@ -34,12 +34,12 @@
 						<div class="row">
 							<div class="form-group col-sm-6">
 								<label for="first-name" class="control-label">First name*</label>
-								<input type="text" name="first-name" id="first-name" class="form-control" data-rule-required="true" />
+								<input type="text" name="first-name" id="first-name" class="form-control" data-rule-required="true" data-msg-required="This field cannot be empty" />
 							</div>
 
 							<div class="form-group col-sm-6">
 								<label for="last-name" class="control-label">Last name*</label>
-								<input type="text" name="last-name" id="last-name" class="form-control" data-rule-required="true" />
+								<input type="text" name="last-name" id="last-name" class="form-control" data-rule-required="true" data-msg-required="This field cannot be empty" />
 							</div>
 						</div>
 
@@ -53,51 +53,51 @@
 						<div class="row">
 							<div class="form-group col-sm-6">
 								<label for="email" class="control-label">Email address*</label>
-								<input type="text" name="email" id="email" class="form-control" data-rule-required="true" />
+								<input type="text" name="email" id="email" class="form-control" data-rule-required="true" data-msg-required="This field cannot be empty" data-rule-email="true" data-msg-email="Must be a valid email address" />
 							</div>
 
 							<div class="form-group col-sm-6">
 								<label for="phone" class="control-label">Phone number*</label>
-								<input type="text" name="phone" id="phone" class="form-control" data-rule-required="true" />
+								<input type="text" name="phone" id="phone" class="form-control" data-rule-required="true" data-msg-required="This field cannot be empty" />
 							</div>
 						</div>
 
 						<div class="row">
 							<div class="form-group col-sm-6">
-								<label class="control-label">Role</label>
+								<label class="control-label">Role*</label>
 								<div class="radio">
 									<label>
-										<input type="radio" id="role-student" name="role" value="student" />I am a student
+										<input type="radio" id="role-student" name="role" value="student" data-rule-required="true"/>I am a student
 									</label>
 								</div>
 								<div class="radio">
 									<label>
-										<input type="radio" id="role-teacher" name="role" value="teacher" />I am a teacher
+										<input type="radio" id="role-teacher" name="role" value="teacher" data-rule-required="true"/>I am a teacher
 									</label>
 								</div>
-								
+								<label class="has-error" for="role"></label>
 							</div>
 
 							<div class="form-group col-sm-6">
-								<label class="control-label">Preferred contact method</label>
+								<label class="control-label">Preferred contact method*</label>
 								<div class="radio">
 									<label>
-										<input type="radio" id="contact-phone" name="contact" value="phone" />Phone
+										<input type="radio" id="contact-phone" name="contact" value="phone" data-rule-required="true" />Phone
 									</label>
 								</div>
 								<div class="radio">
 									<label>
-										<input type="radio" id="contact-email" name="contact" value="email" />Email
+										<input type="radio" id="contact-email" name="contact" value="email" data-rule-required="true" />Email
 									</label>
 								</div>
-								
+								<label class="has-error" for="contact"></label>
 							</div>
 						</div>
 
 						<div class="row">
 							<div class="form-group col-sm-12">
 								<label for="message" class="control-label">Message*</label>
-								<textarea id="message" name="message" class="form-control" rows="4" data-rule-required="true"></textarea>
+								<textarea id="message" name="message" class="form-control" rows="4" data-rule-required="true" data-msg-required="This field cannot be empty"></textarea>
 							</div>
 						</div>
 

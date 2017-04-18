@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	$('form').validate({
-		errorClass: 'has-error'
+		errorClass: 'has-error',
+		onkeyup: false
 	});
 });
