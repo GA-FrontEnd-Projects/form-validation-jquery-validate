@@ -22,7 +22,7 @@ For this exercise, we will use the [jQuery Validation](https://jqueryvalidation.
 
 9. Now add `data-rule-required="true"` to the radio button elements. Also add asterisks next to the field labels to indicate to the user that these fields are required. Watch what happens when the form is submitted without having selected an option for either field. Gross.
 
-10. To fix the error message placement for these fields, inspect the error message in your browser and copy the element that contains the message. Copy and paste the markup below the closing tag for the last `<div class="radio">`, and remove the id attribute and message. Next time you try to submit the form, the error message should display nicely below the radio buttons.
+10. To fix the error message placement for these fields, inspect the error message in your browser and copy the element that contains the message. Copy and paste that markup below the closing tag for the last `<div class="radio">`, and remove the `id` attribute and message. Next time you try to submit the form, the error message should display nicely below the radio buttons.
 
 11. Experiment with other validation rules -- try adding maximum or minimum length rules and corresponding custom error messages for different fields.
 
