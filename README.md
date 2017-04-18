@@ -10,9 +10,9 @@ For this exercise, we will use the [jQuery Validation](https://jqueryvalidation.
 
 3. Include the jQuery Validation source in index file, either by linking to a CDN or by downloading it and including the local file.
 
-4. In your js/script.js file, add the standard `$(document).ready()` statement.
+4. In your js/script.js file, add the standard `$(document).ready()`	 statement.
 
-5. Inside the `$(document).ready()' body, select the form using jQuery ($('form') will do) and initialize the validate plugin on it.
+5. Inside the `$(document).ready()` body, select the form using jQuery ($('form') will do) and initialize the validate plugin on it.
 
 6. Look at the index.html file in your browser. For all fields marked with an asterisk, add 'data-rule-required="true" to each corresponding `input` element. Do not do this for input[type="radio"] elements. Adding this attribute tells the form validator that these fields should have values before the form can be submitted.
 
