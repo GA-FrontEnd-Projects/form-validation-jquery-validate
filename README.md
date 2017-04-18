@@ -12,15 +12,15 @@ For this exercise, we will use the [jQuery Validation](https://jqueryvalidation.
 
 4. In your js/script.js file, add the standard `$(document).ready()`	 statement.
 
-5. Inside the `$(document).ready()` body, select the form using jQuery ($('form') will do) and initialize the validate plugin on it.
+5. Inside the `$(document).ready()` body, select the form using jQuery (`$('form')` will do) and initialize the validate plugin on it.
 
-6. Look at the index.html file in your browser. For all fields marked with an asterisk, add 'data-rule-required="true" to each corresponding `input` element. Do not do this for input[type="radio"] elements. Adding this attribute tells the form validator that these fields should have values before the form can be submitted. Once you have done that, reload the page, submit the empty form, and see what happens. 
+6. Look at the index.html file in your browser. For all fields marked with an asterisk, add `data-rule-required="true"` to each corresponding `input` element. Do not do this for `input[type="radio"]` elements. Adding this attribute tells the form validator that these fields should have values before the form can be submitted. Once you have done that, reload the page, submit the empty form, and see what happens. 
 
-7. For each of the mandatory fields, create a custom error message by adding 'data-msg-required="[your message, without brackets]"' to the input element. Reload the page, submit the empty form, and see your new messages in action.
+7. For each of the mandatory fields, create a custom error message by adding `data-msg-required="[your message, without brackets]"` to the input element. Reload the page, submit the empty form, and see your new messages in action.
 
 8. The validation plugin offers [preset validation rules](https://jqueryvalidation.org/documentation/#link-list-of-built-in-validation-methods) for common types of form inputs. For the email address field, add a rule that makes sure the string in that field is formatted like an email address. Also add an error message for this rule that lets the user know they need to enter an email address.
 
-9. Now add 'data-rule-required="true"' to the radio button elements. Also add asterisks next to the field labels to indicate to the user that these fields are required. Watch what happens when the form is submitted without having selected an option for either field. Gross.
+9. Now add `data-rule-required="true"` to the radio button elements. Also add asterisks next to the field labels to indicate to the user that these fields are required. Watch what happens when the form is submitted without having selected an option for either field. Gross.
 
 10. To fix the error message placement for these fields, inspect the error message in your browser and copy the element that contains the message. Copy and paste the markup below the closing tag for the last `<div class="radio">`, and remove the id attribute and message. Next time you try to submit the form, the error message should display nicely below the radio buttons.
 
