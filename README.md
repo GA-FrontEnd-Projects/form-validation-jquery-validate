@@ -1,5 +1,4 @@
-# form-validation-jquery-validation
-Learn about form validation using the jQuery Validation plugin
+# Form Validation with the jQuery Validation Plugin
 
 Form validation is an essential part of any production application. Being clear with users about what information they are required to enter on a given form, and in what format, will help ensure that the form filling process is smooth and frustration-free. Typically form validation should be done both before the user submits the form (on the front end), as well as after the form has been submitted (on the back end) to ensure that the information really does meet all your requirements, but we'll just be looking at front end validation here.
 
