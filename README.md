@@ -14,7 +14,7 @@ For this exercise, we will use the [jQuery Validation](https://jqueryvalidation.
 
 5. Inside the `$(document).ready()` body, select the form using jQuery ($('form') will do) and initialize the validate plugin on it.
 
-6. Look at the index.html file in your browser. For all fields marked with an asterisk, add 'data-rule-required="true" to each corresponding `input` element. Do not do this for input[type="radio"] elements. Adding this attribute tells the form validator that these fields should have values before the form can be submitted.
+6. Look at the index.html file in your browser. For all fields marked with an asterisk, add 'data-rule-required="true" to each corresponding `input` element. Do not do this for input[type="radio"] elements. Adding this attribute tells the form validator that these fields should have values before the form can be submitted. Once you have done that, reload the page, submit the empty form, and see what happens. 
 
 7. For each of the mandatory fields, create a custom error message by adding 'data-msg-required="[your message, without brackets]"' to the input element
 
