@@ -8,7 +8,7 @@ For this exercise, we will use the [jQuery Validation](https://jqueryvalidation.
 
 2. Open the index.html file in your code editor.
 
-3. Include the jQuery Validation source in index file, either by linking to a CDN or by downloading it and including the local file.
+3. Include the jQuery Validation source in the index file, either by linking to a CDN or by downloading it and including the local file.
 
 4. In your js/script.js file, add the standard `$(document).ready()`	 statement.
 
